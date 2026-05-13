@@ -3,10 +3,13 @@ kind: Component
 metadata:
   name: task-tracker
   description: Spring Boot demo application for Red Hat Developer Hub
+  tags:
+    - java
+    - data
   annotations:
     backstage.io/techdocs-ref: dir:.
 
 spec:
   type: service
   lifecycle: production
-  owner: platform-team
+  owner: cziesman
